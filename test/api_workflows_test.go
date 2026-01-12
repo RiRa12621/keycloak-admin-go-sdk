@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/rira12621/keycloak-admin-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/rira12621/keycloak-admin-go-sdk"
 )
 
 func Test_openapi_WorkflowsAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 
@@ -38,12 +39,12 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsIdActivateTypeResourceIdPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
 		var resourceId string
-		var type_ openapiclient.map[string]interface{}
+		var type_ map[string]interface{}
 
 		httpRes, err := apiClient.WorkflowsAPI.AdminRealmsRealmWorkflowsIdActivateTypeResourceIdPost(context.Background(), realm, id, resourceId, type_).Execute()
 
@@ -54,12 +55,12 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsIdDeactivateTypeResourceIdPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
 		var resourceId string
-		var type_ openapiclient.map[string]interface{}
+		var type_ map[string]interface{}
 
 		httpRes, err := apiClient.WorkflowsAPI.AdminRealmsRealmWorkflowsIdDeactivateTypeResourceIdPost(context.Background(), realm, id, resourceId, type_).Execute()
 
@@ -70,7 +71,7 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsIdDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -84,7 +85,7 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsIdGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -99,7 +100,7 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsIdPut", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -113,7 +114,7 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 
@@ -126,7 +127,7 @@ func Test_openapi_WorkflowsAPIService(t *testing.T) {
 
 	t.Run("Test WorkflowsAPIService AdminRealmsRealmWorkflowsScheduledResourceIdGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var resourceId string
