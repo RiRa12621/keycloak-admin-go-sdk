@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/rira12621/keycloak-admin-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ComponentAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ComponentAPIService(t *testing.T) {
 
 	t.Run("Test ComponentAPIService AdminRealmsRealmComponentsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 
@@ -38,7 +38,7 @@ func Test_openapi_ComponentAPIService(t *testing.T) {
 
 	t.Run("Test ComponentAPIService AdminRealmsRealmComponentsIdDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -52,7 +52,7 @@ func Test_openapi_ComponentAPIService(t *testing.T) {
 
 	t.Run("Test ComponentAPIService AdminRealmsRealmComponentsIdGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -67,7 +67,7 @@ func Test_openapi_ComponentAPIService(t *testing.T) {
 
 	t.Run("Test ComponentAPIService AdminRealmsRealmComponentsIdPut", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -81,7 +81,7 @@ func Test_openapi_ComponentAPIService(t *testing.T) {
 
 	t.Run("Test ComponentAPIService AdminRealmsRealmComponentsIdSubComponentTypesGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var id string
@@ -96,7 +96,7 @@ func Test_openapi_ComponentAPIService(t *testing.T) {
 
 	t.Run("Test ComponentAPIService AdminRealmsRealmComponentsPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 

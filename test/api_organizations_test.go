@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/rira12621/keycloak-admin-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OrganizationsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsCountGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 
@@ -38,7 +38,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 
@@ -52,7 +52,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsMembersMemberIdOrganizationsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var memberId string
@@ -67,7 +67,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -81,7 +81,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -96,7 +96,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdIdentityProvidersAliasDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -111,7 +111,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdIdentityProvidersAliasGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -127,7 +127,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdIdentityProvidersGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -142,7 +142,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdIdentityProvidersPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -156,7 +156,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersCountGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -171,7 +171,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -186,7 +186,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersInviteExistingUserPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -200,7 +200,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersInviteUserPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -214,7 +214,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersMemberIdDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -229,7 +229,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersMemberIdGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -245,7 +245,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersMemberIdOrganizationsGet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -261,7 +261,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdMembersPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -275,7 +275,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsOrgIdPut", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 		var orgId string
@@ -289,7 +289,7 @@ func Test_openapi_OrganizationsAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationsAPIService AdminRealmsRealmOrganizationsPost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var realm string
 
