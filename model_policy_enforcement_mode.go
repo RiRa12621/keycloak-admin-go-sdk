@@ -18,13 +18,6 @@ import (
 // PolicyEnforcementMode the model 'PolicyEnforcementMode'
 type PolicyEnforcementMode string
 
-// List of PolicyEnforcementMode
-const (
-	ENFORCING PolicyEnforcementMode = "ENFORCING"
-	PERMISSIVE PolicyEnforcementMode = "PERMISSIVE"
-	DISABLED PolicyEnforcementMode = "DISABLED"
-)
-
 // All allowed values of PolicyEnforcementMode enum
 var AllowedPolicyEnforcementModeEnumValues = []PolicyEnforcementMode{
 	"ENFORCING",
@@ -110,4 +103,3 @@ func (v *NullablePolicyEnforcementMode) UnmarshalJSON(src []byte) error {
 	v.isSet = true
 	return json.Unmarshal(src, &v.value)
 }
-
